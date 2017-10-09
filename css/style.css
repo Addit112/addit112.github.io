@@ -1,0 +1,70 @@
+body{
+	background-color: #b8b8ba;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	padding: 3em 2em 2em ;
+	background: #222222;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: 'Marcellus SC', serif;
+	color: #fff;
+}
+
+.header-top {
+
+}
+
+header .main-nav .hamburger {
+    padding: 1em;
+    width: 3.75em;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin-top: -.2em;
+}
+
+header .main-nav .hamburger .slice+.slice {
+    margin-top: 3px;
+}
+
+header .main-nav .hamburger .slice {
+    height: 1.5px;
+    width: 1.75em;
+    background-color: #222222;
+    display: block;
+    float: left;
+}
+
+.header-top h1 {
+	font-weight: 700;
+	padding: 0;
+	font-size: .85em;
+	margin: -.3em 0 0 2em;
+	color: #fff;
+}
+
+.header-logo img {
+	margin: -.25em;
+	float: left;
+	width: 3.5em;
+}
+
+nav ul {
+	float: right;
+}
+
+header .main-nav ul li {
+    font-size: .85em;
+    width: auto;
+    float: left;
+    letter-spacing: .1em;
+    line-height: 3.1em;
+    color: #fff;
+}
+
+ul {
+	margin-top: 0px;
+	margin-bottom: 10px
+}
